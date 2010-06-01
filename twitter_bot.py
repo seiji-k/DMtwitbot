@@ -13,7 +13,6 @@ import bsddb
 dm_log = bsddb.btopen('/tmp/dmlog.db' )
 api = twitter.Api(username='********', password= '*********')
 
-hushtug = re.compile("#test")        #Defining a hushtug
 
 
 DMs = api.GetDirectMessages()   #Get a list of DMs that have never been seen. 
