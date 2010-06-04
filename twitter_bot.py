@@ -1,6 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 # Licensed under the MIT license: http://www.opensource.org/licenses/mit-license.php
+#Author: Seiji-k<seiji.naist@gmail.com>
 
 # Using python-twitter; a python wrapper around the Twitter API
 # (http://code.google.com/p/python-twitter/)
