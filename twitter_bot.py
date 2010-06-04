@@ -1,5 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+# Licensed under the MIT license: http://www.opensource.org/licenses/mit-license.php
 
 # Using python-twitter; a python wrapper around the Twitter API
 # (http://code.google.com/p/python-twitter/)
@@ -11,7 +12,7 @@ import re
 from time import sleep
 import bsddb
 dm_log = bsddb.btopen('/tmp/dmlog.db' )
-api = twitter.Api(username='********', password= '*********')
+api = twitter.Api(username='kshrbot', password= 'naistnaist')
 
 
 
